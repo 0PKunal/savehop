@@ -13,7 +13,7 @@ ENV DATA_DIR=/data
 ENV MAX_SAVE_MB=100
 ENV NODE_ENV=production
 
-VOLUME ["/data"]
+
 EXPOSE 8787
 
 # 15s interval, 3s timeout, 10s grace at startup, fail after 3 misses.
